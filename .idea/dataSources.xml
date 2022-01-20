@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="redshift-prod-msgadmin" uuid="34585125-984a-49ea-8818-7b1e408acd13">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5476/msgbiadb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-dev-msgadmin" uuid="dd60e17d-2c68-4507-823a-90f07a56fefe">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia-dev.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5492/msgbiadb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sqlanywhere-tm_dba" uuid="9ab6948a-752c-49ed-99ea-2e37999df5af">
+      <driver-ref>sybase.ase</driver-ref>
+      <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
+      <jdbc-driver>com.sybase.jdbc4.jdbc.SybDriver</jdbc-driver>
+      <jdbc-url>jdbc:sybase:Tds:MSGcn.hosted.ticketmaster.com:50465?ServiceName=msg</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-dev-cioffic" uuid="951f672f-7da9-4008-ab4b-42090f8ab5e7">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia-dev.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5492/cioffic</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-prod-cioffic" uuid="4c4bd095-471c-45c8-a718-18bc6608841c">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5476/msgbiadb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-prod-etluser" uuid="887b7b14-9df8-4d5c-b9d9-78bf7212b66b">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5476/msgbiadb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-dev-etluser" uuid="ec0db054-c535-4a64-941d-935b8409954f">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia-dev.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5492/cioffic</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-dev-pp-msgadmin" uuid="7bec0ac9-e1f8-4c78-a329-63e69e6f8f44">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rs-msgpp-dev-us-east-1a.cyqah0sp2ijc.us-east-1.redshift.amazonaws.com:5492/msgppdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="postgres-prod-tableau" uuid="e7d2f801-6154-4e90-8756-89593da10e72">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://msginsights:8060/workgroup</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-prod-adsuser" uuid="f82af76f-162d-4d6c-ac40-1abe3a6f59f6">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5476/msgbiadb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="redshift-prod-ads_staging" uuid="ea156b11-5b6c-47e4-91de-28fbda9c8b30">
+      <driver-ref>redshift</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.amazon.redshift.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:redshift://rsmsgbia.c5dyht7ygr3w.us-east-1.redshift.amazonaws.com:5476/msgbiadb</jdbc-url>
+    </data-source>
+  </component>
+</project>

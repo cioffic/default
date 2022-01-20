@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="redshift-prod-msgadmin" uuid="34585125-984a-49ea-8818-7b1e408acd13">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.34691" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>msgadmin</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="msgbiadb">
+            <node kind="schema" negative="1">
+              <name name="exact_target" />
+              <name name="admin" />
+            </node>
+            <node kind="external-schema" negative="1" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-dev-msgadmin" uuid="dd60e17d-2c68-4507-823a-90f07a56fefe">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.34691" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>msgadmin</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database">
+              <name qname="chant" />
+              <name qname="cioffic" />
+              <name qname="joshis" />
+              <name qname="pulavarr" />
+              <name qname="shahas" />
+              <name qname="hanbalim" />
+              <node kind="schema">
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_staging" />
+              </node>
+            </node>
+            <node kind="database" qname="madhavm">
+              <node kind="schema">
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_sandbox" />
+                <name qname="ads_staging" />
+              </node>
+              <node kind="external-schema">
+                <name qname="bocs" />
+                <name qname="eatec" />
+                <name qname="ext_staging" />
+                <name qname="forms_io" />
+                <name qname="formstack" />
+                <name qname="info_genesis" />
+                <name qname="mapping_tables" />
+                <name qname="mashgin" />
+                <name qname="medallia" />
+              </node>
+            </node>
+            <node kind="database" qname="msgbiadb">
+              <node kind="external-schema" negative="1" />
+              <node kind="schema">
+                <name qname="admin" />
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_sandbox" />
+                <name qname="ads_staging" />
+              </node>
+            </node>
+            <node kind="database" qname="pateldip">
+              <node kind="external-schema" negative="1" />
+              <node kind="schema">
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_staging" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database">
+              <name qname="sens" />
+              <name qname="thomsond" />
+              <name qname="jaiswala" />
+            </node>
+            <node kind="database" qname="singhk">
+              <node kind="schema" negative="1" />
+              <node kind="external-schema" negative="1" />
+            </node>
+            <node kind="database" qname="tableau_test">
+              <node kind="schema" qname="tableau_online" />
+            </node>
+            <node kind="database" qname="sadinenin">
+              <node kind="schema" qname="ads_main" />
+            </node>
+            <node kind="database" qname="reddyk">
+              <node kind="schema">
+                <name qname="ads_main" />
+                <name qname="ads_staging" />
+                <name qname="ads_mon" />
+                <name qname="ads_etl_temp" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+        <substitutions use-mini-cat="false" />
+      </schema-mapping>
+    </data-source>
+    <data-source name="sqlanywhere-tm_dba" uuid="9ab6948a-752c-49ed-99ea-2e37999df5af">
+      <database-info product="SQL Anywhere" version="17.0.10.6315" jdbc-version="4.0" driver-name="jConnect (TM) for JDBC (TM)" driver-version="jConnect (TM) for JDBC(TM)/16.0 PL03 (Build 27073)/P/EBF23152/JDK 1.6.0/jdbcmain/OPT/Wed Jul 16 00:36:57 PDT 2014" dbms="UNKNOWN" exact-version="17.0" exact-driver-version="16.0">
+        <extra-name-characters>@#$£¥</extra-name-characters>
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>ext_crm</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="MSG">
+              <node kind="schema" qname="DBA" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-dev-cioffic" uuid="951f672f-7da9-4008-ab4b-42090f8ab5e7">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.33426" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>cioffic</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="cioffic">
+              <node kind="schema">
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_staging" />
+                <name qname="public" />
+              </node>
+            </node>
+            <node kind="database" qname="msgbiadb">
+              <node kind="external-schema" negative="1" />
+              <node kind="schema">
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_sandbox" />
+                <name qname="ads_staging" />
+                <name qname="public" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-prod-cioffic" uuid="4c4bd095-471c-45c8-a718-18bc6608841c">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.34272" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>cioffic</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="msgbiadb">
+              <node kind="external-schema" negative="1" />
+              <node kind="schema">
+                <name qname="admin" />
+                <name qname="ads_admin" />
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_sandbox" />
+                <name qname="ads_staging" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-prod-etluser" uuid="887b7b14-9df8-4d5c-b9d9-78bf7212b66b">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.34691" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>etluser</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="msgbiadb">
+              <node kind="external-schema" negative="1" />
+              <node kind="schema">
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_staging" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-dev-etluser" uuid="ec0db054-c535-4a64-941d-935b8409954f">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.34691" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>etluser</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="msgbiadb">
+              <node kind="external-schema" negative="1" />
+              <node kind="schema">
+                <name qname="ads_etl_temp" />
+                <name qname="ads_main" />
+                <name qname="ads_mon" />
+                <name qname="ads_staging" />
+              </node>
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-dev-pp-msgadmin" uuid="7bec0ac9-e1f8-4c78-a329-63e69e6f8f44">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.34691" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>msgadmin</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node negative="1">
+            <node kind="database" qname="@">
+              <node kind="schema" qname="@" />
+            </node>
+            <node kind="database" qname="msgppdb">
+              <node kind="schema" negative="1" />
+            </node>
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="postgres-prod-tableau" uuid="e7d2f801-6154-4e90-8756-89593da10e72">
+      <database-info product="PostgreSQL" version="9.6.14" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.5" dbms="POSTGRES" exact-version="9.6.14" exact-driver-version="42.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>readonly</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-prod-adsuser" uuid="f82af76f-162d-4d6c-ac40-1abe3a6f59f6">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.29551" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>adsuser</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="redshift-prod-ads_staging" uuid="ea156b11-5b6c-47e4-91de-28fbda9c8b30">
+      <database-info product="PostgreSQL" version="08.00.0002" jdbc-version="4.2" driver-name="RedshiftJDBC" driver-version="01.02.16.1027" dbms="REDSHIFT" exact-version="1.0.31651" exact-driver-version="1.2">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <secret-storage>master_key</secret-storage>
+      <user-name>ads_staging</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>
